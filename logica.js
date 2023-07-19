@@ -1,7 +1,49 @@
-let todosLosPersonajes = "";
+//SEGUNDA PREENTREGA
+//barra de busqueda por prompt
 
+console.table(personajes);
+
+//funcion para buscar el nombre del personaje
+function encontrarpj(pj) {
+
+    const Encontrado = personajes.find(personaje => personaje.nombre.toLowerCase() === pj);
+
+    return Encontrado;
+}
+
+//se le dice al usuario que ponga el nombre del personaje que quiera ver
+let ingreseNombre = prompt("Ingrese el nombre de una personaje.\nScorpion\nSub zero\nNoob Saibot\nRain\nFujin\nMileena\n0-para salir");
+
+//se muestra el resultado segun lo que puso el usuario
+while (ingreseNombre != 0) {
+
+    if (ingreseNombre != undefined) {
+        const pjEncontrado = encontrarpj(ingreseNombre);
+        console.log(pjEncontrado);
+    } else {
+        console.log("nombre de personaje erroneo");
+    }
+
+    //se le vuelve a preguntar
+    ingreseNombre = prompt("Ingrese el nombre de una personaje.\nScorpion\nSub zero\nNoob Saibot\nRain\nFujin\nMileena\n0-para salir");
+}
+
+
+
+
+
+
+
+//ESTO ES DE LA PRIMER PRE ENTREGA 
+
+
+
+/*let todosLosPersonajes = "";
+
+//muestra los personajes que hay para ver su historia
 let personaje = prompt("Selecciona el número del personaje que quieras para ver su historia.\n1-Scorpion\n2-Sub-zero\n3-Noob Saibot\n4-Rain\n5-Fujin\n6-Mileena\n0-Para salir");
 
+//te muestra la historia del personaje seleccionado
 while (personaje != "0") {
     switch (personaje) {
         case "1":
@@ -33,14 +75,17 @@ while (personaje != "0") {
             break;
     }
 
+    //te muestra de nuevo los personajes para que puedas ver la historia de los demas
     personaje = prompt("Selecciona el número del personaje que quieras para ver su historia.\n1-Scorpion\n2-Sub-zero\n3-Noob Saibot\n4-Rain\n5-Fujin\n6-Mileena\n0-Para salir");
     
 }
 
+//te muestra todos los personajes que has visto
 alert("Los personajes que has visto son "+todosLosPersonajes)
 
+//va llevando la cuenta de los personajes que vas viendo
 function mostrarPersonajesVistos(personajeVisto) {
     todosLosPersonajes = todosLosPersonajes + ", " + personajeVisto;
 
     console.log(todosLosPersonajes);
-}
+}*/
