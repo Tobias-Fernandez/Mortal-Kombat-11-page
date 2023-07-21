@@ -6,7 +6,7 @@ console.table(personajes);
 //funcion para buscar el nombre del personaje
 function encontrarpj(pj) {
 
-    const Encontrado = personajes.find(personaje => personaje.nombre.toLowerCase() === pj);
+    const Encontrado = personajes.find(personaje => personaje.nombre === pj.toLowerCase());
 
     return Encontrado;
 }
@@ -17,16 +17,16 @@ let ingreseNombre = prompt("Ingrese el nombre de una personaje.\nScorpion\nSub z
 //se muestra el resultado segun lo que puso el usuario
 while (ingreseNombre != 0) {
 
-    if (ingreseNombre != undefined) {
-        const pjEncontrado = encontrarpj(ingreseNombre);
-        console.log(pjEncontrado);
+    if (encontrarpj(ingreseNombre) != undefined) {
+        console.log(encontrarpj(ingreseNombre));
     } else {
-        console.log("nombre de personaje erroneo");
+        console.log("nombre de personaje erróneo");
     }
 
     //se le vuelve a preguntar
     ingreseNombre = prompt("Ingrese el nombre de una personaje.\nScorpion\nSub zero\nNoob Saibot\nRain\nFujin\nMileena\n0-para salir");
 }
+
 
 
 
