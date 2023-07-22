@@ -12,7 +12,7 @@ function encontrarpj(pj) {
 }
 
 //se le dice al usuario que ponga el nombre del personaje que quiera ver
-let ingreseNombre = prompt("Ingrese el nombre de una personaje.\nScorpion\nSub zero\nNoob Saibot\nRain\nFujin\nMileena\n0-para salir");
+let ingreseNombre = prompt("Ingrese el nombre de una personaje.\nScorpion\nSubZero\nNoobSaibot\nRain\nFujin\nMileena\n0-para salir");
 
 //se muestra el resultado segun lo que puso el usuario
 while (ingreseNombre != 0) {
@@ -34,8 +34,8 @@ while (ingreseNombre != 0) {
 
 
 
-//ESTO ES DE LA PRIMER PRE ENTREGA 
 
+//ESTO ES DE LA PRIMER PRE ENTREGA 
 
 
 /*let todosLosPersonajes = "";
