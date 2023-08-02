@@ -1,32 +1,152 @@
 //array de personajes
-
 const personajes = [{
     id: 1,
-    nombre: "scorpion",
-    historia: "Gran maestro Scorpion de los Shirai Ryu. Cegado por la furia, Hanzo Hasashi movió mar y montaña para vengar a su familia y a su clan sin descansar hasta acabar con su asesino: Quan Chi. Ahora lidera un nuevo Shirai Ryu para vengar a aquellos que no pueden hacerlo por sí mismos."
+    nombre: "shang tsung",
+    link: "./pages/pj-shang-tsung.html"
 },
 {
     id: 2,
-    nombre: "subzero",
-    historia: "Gran Maestro del clan Lin Kuei. Kuai Liang venció a la muerte para redimir a su clan por el mal cometido a manos de Sektor y los cibernéticos Lin Kuei. Tras ello, reconstruyó el clan Lin Kuei y pactó la paz con su rival, el clan Shirai Ryu. Ahora busca poner fin al historial de pecados de los Lin Kuei."
+    nombre: "shao kahn",
+    link: "./pages/pj-shao-kahn.html"
 },
 {
     id: 3,
-    nombre: "noobsaibot",
-    historia: "La sombra de Netherrealm. Noob Saibot era conocido en vida como Sub-Zero. Asesinado injustamente por Scorpion, fue resucitado por Quan Chi y le fueron concedidos poderes sobre la oscuridad, pero como esclavo de Quan Chi. Ahora Quan Chi ha muerto y Noob Saibot puede finalmente reclamar el honor que le fue arrebatado."
+    nombre: "frost",
+    link: "./pages/pj-frost.html"
 },
 {
     id: 4,
-    nombre: "rain",
-    historia: "Como huérfano, Rain se unió al ejército edeniano. Su genio estratégico le trajo un ascenso rápido, el cual usó para descubrir que era el hijo bastardo del dios Argus, protector de Edenia. Sabiendo que es un semidiós, Rain lucha por su lugar entre los dioses de Edenia."
+    nombre: "nightwolf"
 },
 {
     id: 5,
-    nombre: "fujin",
-    historia: "Fujin, dios del viento, sirve a los Dioses Antiguos junto con su hermano Raiden. Juntos son los protectores de Earthrealm. Afable y alegre, es experto en estimular la capacidad innata de bondad y heroísmo de la gente para que estas cualidades triunfen sobre las fuerzas del odio y la tiranía. Fujin cree que los mejores días de Earthrealm aún están por llegar, y lucha por garantizar ese gran porvenir."
+    nombre: "joker"
 },
 {
     id: 6,
-    nombre: "mileena",
-    historia: "Mileena es el producto de los diabólicos experimentos de clonación de Shang Tsung: la mezcla perfecta de la ferocidad tarkatana con la gracia atlética de Kitana. Al ser transportada al futuro por Kronika descubrió su trágico destino. Sus enemigos deben someterse o morirán."
+    nombre: "johnny cage"
+},
+{
+    id: 7,
+    nombre: "sonya blade"
+},
+{
+    id: 8,
+    nombre: "cassie cage"
+},
+{
+    id: 9,
+    nombre: "jax"
+},
+{
+    id: 10,
+    nombre: "spawn"
+},
+{
+    id: 11,
+    nombre: "scorpion"
+},
+{
+    id: 12,
+    nombre: "noob saibot"
+},
+{
+    id: 13,
+    nombre: "baraka"
+},
+{
+    id: 14,
+    nombre: "raiden"
+},
+{
+    id: 15,
+    nombre: "jacqui briggs"
+},
+{
+    id: 16,
+    nombre: "sub-zero"
+},
+{
+    id: 17,
+    nombre: "kano"
+},
+{
+    id: 18,
+    nombre: "kabal"
+},
+{
+    id: 19,
+    nombre: "liu kang"
+},
+{
+    id: 20,
+    nombre: "kitana"
+},
+{
+    id: 21,
+   nombre: "kung lao" 
+},
+{
+    id: 22,
+    nombre: "jade"
+},
+{
+    id: 23,
+    nombre: "robocop"
+},
+{
+    id: 24,
+    nombre: "skarlet"
+},
+{
+    id: 25,
+    nombre: "erron black"
+},
+{
+    id: 26,
+    nombre: "d'vorah"
+},
+{
+    id: 27,
+    nombre: "kotal kahn"
+},
+{
+    id: 28,
+    nombre: "sheeva"
+},
+{
+    id: 29,
+    nombre: "rambo"
+},
+{
+    id: 30,
+    nombre: "terminator"
+},
+{
+    id: 31,
+    nombre: "geras"
+},
+{
+    id: 32,
+    nombre: "kollector"
+},
+{
+    id: 33,
+    nombre: "sindel"
+},
+{
+    id: 34,
+    nombre: "mileena"
+},
+{
+    id: 35,
+    nombre: "cetrion"
+},
+{
+    id: 36,
+    nombre: "fujin"
+},
+{
+    id: 37,
+    nombre: "rain"
 }]

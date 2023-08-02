@@ -3,14 +3,16 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- icons -->
+    <script src="https://kit.fontawesome.com/655a8d37f9.js" crossorigin="anonymous"></script>
     <!-- css -->
     <link rel="stylesheet" href="./css/style.css">
     <link rel="shortcut icon" href="./assets/favicon.png" type="image/x-icon">
-    <title>MK11 Page</title>
+    <title>Home | M11K</title>
 </head>
-<body>
+<body id="body-home">
 
-    <section>
+    <main>
         <div class="logo">
             <img src="./assets/logo-mk11.png" alt="" class="logo-img">
         </div>
@@ -21,17 +23,22 @@
             </div>
 
             <div class="btn-input">
-                <input type="text" placeholder="Busca un personaje">
-                <button class="personajes-btn">Personajes</button>
+                <div class="input-div">
+                    <input type="text" placeholder="Busca un personaje" class="input-home">
+                    <button class="boton-home-icon">buscar</button>
+                </div>
+                <a href="./pages/personajes.html" class="home-a"><button class="home-btn">Personajes</button></a>
             </div>
 
             <div>
                 <img src="./assets/subzero-home.png" alt="" class="subzero-home">
             </div>
         </div>
-    </section>
+    </main>
     
     <script src="personajes.js"></script>
     <script src="logica.js"></script>
 </body>
 </html>
+
+<!-- <i class="fa-solid fa-magnifying-glass icon-home"></i> -->

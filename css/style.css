@@ -3,8 +3,11 @@
     margin: 0;
 }
 
-body {
-    background-image: linear-gradient(to top, rgb(112, 61, 20), goldenrod);
+#body-home {
+    background-image: linear-gradient(to top, rgb(95, 52, 17), goldenrod);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
     overflow: hidden;
 }
 
@@ -22,10 +25,22 @@ body {
 
 /* estilos de boton e input */
 
-.personajes-btn {
+.home-btn {
     height: 30px;
     width: 80px;
     margin-top: 100px;
+    border: none;
+    color: black;
+    font-size: 13px;
+}
+
+.home-btn:hover {
+    background-color: rgb(31, 31, 31);
+    color: white;
+}
+
+.home-a {
+    height: 0;
 }
 
 .btn-input {
@@ -34,11 +49,40 @@ body {
     flex-direction: column;
 }
 
-input {
+.input-div {
+    display: flex;
+    align-items: end;
+}
+
+.input-home {
     margin-top: 60px;
     width: 250px;
-    height: 20px;
+    height: 25px;
+    border: none;
 }
+
+.boton-home-icon {
+    border: 1px solid black;
+    background-color: white;
+    color: black;
+    font-size: 25px;
+}
+
+.boton-home-icon:hover {
+    border: 1px solid white;
+    background-color: black;
+    color: white;
+}
+
+/* .icon-home {
+    font-size: 35px;
+    padding: 2px;
+    color: black;
+}
+
+.icon-home:hover {
+    color: white;
+} */
 
 /* estilos de personajes en home */
 
@@ -98,4 +142,118 @@ input {
         top: 0;
     }
 
+}
+
+/* estilos de seleccion de pesonajes */
+
+#body-seleccion {
+    background-image: radial-gradient(circle, goldenrod, rgb(58, 29, 6));
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    overflow: hidden;
+}
+
+.div-pj-cards {
+    width: 100%;
+    margin-left: 31px;
+}
+
+.div-pj-cards-primeraFila {
+    width: 100%;
+}
+
+.div-boton-seleccion {
+    margin: 15px 0 0 27px;
+}
+
+.boton-seleccion {
+    border: none;
+    background-color: transparent;
+}
+
+.icon-seleccion {
+    font-size: 35px;
+    color: white;
+}
+
+.icon-seleccion:hover {
+    color: black;
+}
+
+.section-seleccion {
+    padding: 0;
+}
+
+.cartas-seleccion {
+    margin: 1.5px 4px 1.5px 4px;
+    background-image: radial-gradient(circle, rgb(78, 78, 78), black);
+    transition: all 0.5s;
+}
+
+.cartas-seleccion:hover {
+    border: 1px solid white;
+    box-shadow: 0 0 10px white;
+    transform: scale(1.1);
+}
+
+.cartas-seleccion img {
+    flex-grow: 1;
+    object-fit: cover;
+    transition: all 0.5s;
+}
+
+.cartas-seleccion a {
+    flex-grow: 1;
+    object-fit: cover;
+}
+
+.cartas-seleccion img:hover {
+    transform: scale(1.2);
+}
+
+/* estilos de personajes */
+
+#body-pj {
+    background-image: linear-gradient(to top, rgb(143, 114, 29), goldenrod);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.div-boton-pj {
+    margin: 15px 0 0 15px;
+}
+
+.div-img-pj {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.img-pj {
+    width: 60%;
+}
+
+.h1-pj {
+    margin-top: 50px;
+    font-size: 50px;
+}
+
+.div-historia-pj {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    margin: 200px 100px 100px 100px;
+}
+
+.h2-historia-pj {
+    margin-bottom: 70px;
+    font-size: 35px;
+}
+
+p {
+    font-size: 20px;
+    line-height: 30px;
+    text-align: start;
 }
