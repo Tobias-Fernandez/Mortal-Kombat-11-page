@@ -1,25 +1,22 @@
-let boton = document.getElementsByClassName("boton-home-icon");
+let boton = document.getElementById("boton-home-icon");
 
 boton.onclick = () => {
     encontrarPj();
 }
 
 function encontrarPj() {
-    let nombre = document.getElementsByClassName("input-home").value;
+    let nombre = document.getElementById("input-home").value;
     let pjData = document.getElementById("data-pj");
 
-    let pjEncontrado = personajes.find(personaje => personaje.nombre === nombre.toLowerCase());
+    let pjEncontrado = personajes.find((personaje) => personaje.nombre === nombre.toLowerCase());
 
     if (pjEncontrado) {
         location.href = pjEncontrado.link;
     } else {
-        pjData.textContent = "Nombre de personaje incorrecto";
+        pjData.textContent = "Nombre de personaje incorrecto ❌";
     }
+
+    const personajeJson = JSON.stringify(pjEncontrado);
+
+    localStorage.getItem("Personaje") ? localStorage.setItem("Personaje", (localStorage.getItem("Personaje")) + (", " +personajeJson)) : localStorage.setItem("Personaje", personajeJson);
 }
-
-/*if (personajes.find(personaje => personaje.nombre === inputHome.value.toLowerCase()) != undefined) {
-
-    const pj = personajes.find(personaje => personaje.nombre == inputHome.value.toLowerCase());
-
-    window.location.href = pj.link;
-}*/

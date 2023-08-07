@@ -28,7 +28,6 @@
 .home-btn {
     height: 30px;
     width: 80px;
-    margin-top: 100px;
     border: none;
     color: black;
     font-size: 13px;
@@ -41,6 +40,7 @@
 
 .home-a {
     height: 0;
+    margin-top: 100px;
 }
 
 .btn-input {
@@ -54,35 +54,35 @@
     align-items: end;
 }
 
-.input-home {
+#input-home {
     margin-top: 60px;
+    padding-left: 10px;
     width: 250px;
     height: 25px;
     border: none;
 }
 
-.boton-home-icon {
-    border: 1px solid black;
+#boton-home-icon {
+    border: none;
+    border-left: 1px solid rgb(31, 31, 31);
     background-color: white;
     color: black;
-    font-size: 25px;
 }
 
-.boton-home-icon:hover {
-    border: 1px solid white;
-    background-color: black;
+#boton-home-icon:hover {
+    background-color: rgb(31, 31, 31);
     color: white;
 }
 
-/* .icon-home {
-    font-size: 35px;
+.icon-home {
+    font-size: 21px;
     padding: 2px;
     color: black;
 }
 
 .icon-home:hover {
     color: white;
-} */
+}
 
 /* estilos de personajes en home */
 
@@ -198,17 +198,16 @@
 }
 
 .cartas-seleccion img {
-    flex-grow: 1;
     object-fit: cover;
     transition: all 0.5s;
 }
 
-.cartas-seleccion a {
-    flex-grow: 1;
-}
-
 .cartas-seleccion img:hover {
     transform: scale(1.2);
+}
+
+.cartas-seleccion a img {
+    height: 88px;
 }
 
 /* estilos de personajes */
