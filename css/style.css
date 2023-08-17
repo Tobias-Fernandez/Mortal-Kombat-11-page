@@ -1,3 +1,6 @@
+/* font-family: 'Jaldi', sans-serif;
+font-family: 'Julius Sans One', sans-serif; */
+
 * {
     padding: 0;
     margin: 0;
@@ -26,11 +29,11 @@
 /* estilos de boton e input */
 
 .home-btn {
-    height: 30px;
-    width: 80px;
+    font-family: 'Jaldi', sans-serif;
+    width: 90px;
     border: none;
     color: black;
-    font-size: 13px;
+    font-size: 18px;
 }
 
 .home-btn:hover {
@@ -40,13 +43,14 @@
 
 .home-a {
     height: 0;
-    margin-top: 100px;
+    margin-top: 70px;
 }
 
 .btn-input {
     display: flex;
     align-items: center;
     flex-direction: column;
+    margin-left: 45px;
 }
 
 .input-div {
@@ -75,13 +79,25 @@
 }
 
 .icon-home {
-    font-size: 21px;
+    font-size: 20px;
     padding: 2px;
     color: black;
 }
 
 .icon-home:hover {
     color: white;
+}
+
+#p-divjson {
+    font-size: 16px;
+    line-height: 10px;
+}
+
+#div-nombresPj {
+    display: flex;
+    flex-wrap: wrap;
+    width: 300px;
+    margin-top: 70px;
 }
 
 /* estilos de personajes en home */
@@ -100,21 +116,24 @@
     width: 80%;
     transform: rotateY(180deg);
     animation: scorpion 3.2s linear infinite;
+    margin-top: 30px;
 }
 
 .subzero-home {
     position: relative;
     width: 85%;
     animation: subzero 3.2s linear infinite;
+    margin-left: 40px;
+    margin-top: 30px;
 }
 
 @keyframes scorpion {
-    0%{
+    0% {
         left: 0;
         top: 0;
     }
 
-    50%{
+    50% {
         left: 40px;
         top: 30px;
     }
@@ -164,7 +183,7 @@
 }
 
 .div-boton-seleccion {
-    margin: 15px 0 0 27px;
+    margin: 15px 0 0 17px;
 }
 
 .boton-seleccion {
@@ -173,12 +192,12 @@
 }
 
 .icon-seleccion {
-    font-size: 35px;
-    color: white;
+    font-size: 45px;
+    color: rgb(100, 100, 100);
 }
 
 .icon-seleccion:hover {
-    color: black;
+    color: rgb(20, 20, 20);
 }
 
 .section-seleccion {
@@ -189,6 +208,11 @@
     margin: 1.5px 4px 1.5px 4px;
     background-image: radial-gradient(circle, rgb(78, 78, 78), black);
     transition: all 0.5s;
+    width: 3.4rem;
+}
+
+.cartas-seleccion-heigth {
+    height: 5.7rem;
 }
 
 .cartas-seleccion:hover {
@@ -219,39 +243,659 @@
     background-attachment: fixed;
 }
 
-.div-boton-pj {
-    margin: 15px 0 0 15px;
+#section-arriba-baraka {
+    background-image: url(../assets/pj-baraka.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    margin: 0;
+    padding: 15px 0 0 17px;
+    height: 700px;
+}
+
+#section-arriba-cassie-cage {
+    background-image: url(../assets/pj-cassie-cage.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    margin: 0;
+    padding: 15px 0 0 17px;
+    height: 700px;
+}
+
+#section-arriba-cetrion {
+    background-image: url(../assets/pj-cetrion.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    margin: 0;
+    padding: 15px 0 0 17px;
+    height: 700px;
+}
+
+#section-arriba-dvorah {
+    background-image: url(../assets/pj-dvorah.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    margin: 0;
+    padding: 15px 0 0 17px;
+    height: 700px;
+}
+
+#section-arriba-erron-black {
+    background-image: url(../assets/pj-erron-black.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    margin: 0;
+    padding: 15px 0 0 17px;
+    height: 700px;
+}
+
+#section-arriba-frost {
+    background-image: url(../assets/pj-frost.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    margin: 0;
+    padding: 15px 0 0 17px;
+    height: 700px;
+}
+
+#section-arriba-fujin {
+    background-image: url(../assets/pj-fujin.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    margin: 0;
+    padding: 15px 0 0 17px;
+    height: 700px;
+}
+
+#section-arriba-geras {
+    background-image: url(../assets/pj-geras.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    margin: 0;
+    padding: 15px 0 0 17px;
+    height: 700px;
+}
+
+#section-arriba-jacqui-briggs {
+    background-image: url(../assets/pj-jacqui-briggs.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    margin: 0;
+    padding: 15px 0 0 17px;
+    height: 700px;
+}
+
+#section-arriba-jade {
+    background-image: url(../assets/pj-jade.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    margin: 0;
+    padding: 15px 0 0 17px;
+    height: 700px;
+}
+
+#section-arriba-jax-briggs {
+    background-image: url(../assets/pj-jax-briggs.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    margin: 0;
+    padding: 15px 0 0 17px;
+    height: 700px;
+}
+
+#section-arriba-johnny-cage {
+    background-image: url(../assets/pj-johnny-cage.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    margin: 0;
+    padding: 15px 0 0 17px;
+    height: 700px;
+}
+
+#section-arriba-joker {
+    background-image: url(../assets/pj-joker.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    margin: 0;
+    padding: 15px 0 0 17px;
+    height: 700px;
+}
+
+#section-arriba-kabal {
+    background-image: url(../assets/pj-kabal.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    margin: 0;
+    padding: 15px 0 0 17px;
+    height: 700px;
+}
+
+#section-arriba-kano {
+    background-image: url(../assets/pj-kano.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    margin: 0;
+    padding: 15px 0 0 17px;
+    height: 700px;
+}
+
+#section-arriba-kitana {
+    background-image: url(../assets/pj-kitana.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    margin: 0;
+    padding: 15px 0 0 17px;
+    height: 700px;
+}
+
+#section-arriba-kollector {
+    background-image: url(../assets/pj-kollector.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    margin: 0;
+    padding: 15px 0 0 17px;
+    height: 700px;
+}
+
+#section-arriba-kotal-kahn {
+    background-image: url(../assets/pj-kotal-kahn.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    margin: 0;
+    padding: 15px 0 0 17px;
+    height: 700px;
+}
+
+#section-arriba-kung-lao {
+    background-image: url(../assets/pj-kung-lao.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    margin: 0;
+    padding: 15px 0 0 17px;
+    height: 700px;
+}
+
+#section-arriba-liu-kang {
+    background-image: url(../assets/pj-liu-kang.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    margin: 0;
+    padding: 15px 0 0 17px;
+    height: 700px;
+}
+
+#section-arriba-mileena {
+    background-image: url(../assets/pj-mileena.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    margin: 0;
+    padding: 15px 0 0 17px;
+    height: 700px;
+}
+
+#section-arriba-nightwolf {
+    background-image: url(../assets/pj-nightwolf.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    margin: 0;
+    padding: 15px 0 0 17px;
+    height: 700px;
+}
+
+#section-arriba-noob-saibot {
+    background-image: url(../assets/pj-noob-saibot.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    margin: 0;
+    padding: 15px 0 0 17px;
+    height: 700px;
+}
+
+#section-arriba-raiden {
+    background-image: url(../assets/pj-raiden.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    margin: 0;
+    padding: 15px 0 0 17px;
+    height: 700px;
+}
+
+#section-arriba-rain {
+    background-image: url(../assets/pj-rain.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    margin: 0;
+    padding: 15px 0 0 17px;
+    height: 700px;
+}
+
+#section-arriba-rambo {
+    background-image: url(../assets/pj-rambo.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    margin: 0;
+    padding: 15px 0 0 17px;
+    height: 700px;
+}
+
+#section-arriba-robocop {
+    background-image: url(../assets/pj-robocop.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    margin: 0;
+    padding: 15px 0 0 17px;
+    height: 700px;
+}
+
+#section-arriba-scorpion {
+    background-image: url(../assets/pj-scorpion.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    margin: 0;
+    padding: 15px 0 0 17px;
+    height: 700px;
+}
+
+#section-arriba-shang-tsung {
+    background-image: url(../assets/pj-shang-tsung.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    margin: 0;
+    padding: 15px 0 0 17px;
+    height: 700px;
+}
+
+#section-arriba-shao-kahn {
+    background-image: url(../assets/pj-shao-kahn.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    margin: 0;
+    padding: 15px 0 0 15px;
+    height: 700px;
+}
+
+#section-arriba-sheeva {
+    background-image: url(../assets/pj-sheeva.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    margin: 0;
+    padding: 15px 0 0 17px;
+    height: 700px;
+}
+
+#section-arriba-sindel {
+    background-image: url(../assets/pj-sindel.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    margin: 0;
+    padding: 15px 0 0 17px;
+    height: 700px;
+}
+
+#section-arriba-skarlet {
+    background-image: url(../assets/pj-skarlet.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    margin: 0;
+    padding: 15px 0 0 17px;
+    height: 700px;
+}
+
+#section-arriba-sonya-blade {
+    background-image: url(../assets/pj-sonya-blade.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    margin: 0;
+    padding: 15px 0 0 17px;
+    height: 700px;
+}
+
+#section-arriba-spawn {
+    background-image: url(../assets/pj-spawn.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    margin: 0;
+    padding: 15px 0 0 17px;
+    height: 700px;
+}
+
+#section-arriba-sub-zero {
+    background-image: url(../assets/pj-sub-zero.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    margin: 0;
+    padding: 15px 0 0 17px;
+    height: 700px;
+}
+
+#section-arriba-terminator {
+    background-image: url(../assets/pj-terminator.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    margin: 0;
+    padding: 15px 0 0 17px;
+    height: 700px;
+}
+
+#section-abajo {
+    border-top: 10px solid rgb(22, 22, 22);
 }
 
 .div-img-pj {
+    height: 100%;
     display: flex;
     align-items: center;
+    justify-content: center;
     flex-direction: column;
-}
-
-.img-pj {
-    width: 60%;
 }
 
 .h1-pj {
+    font-family: 'Julius Sans One', sans-serif;
+    color: black;
+    text-shadow: 0 0 10px white, 0 0 10px white, 0 0 10px white;
     margin-top: 50px;
-    font-size: 50px;
+    font-size: 70px;
 }
 
 .div-historia-pj {
+    background-image: url(../assets/fondo-mk.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    border-top: 10px solid rgb(22, 22, 22);
     display: flex;
     flex-direction: column;
     justify-content: start;
-    margin: 200px 100px 100px 100px;
+    margin: 50px 0 0 0;
+    padding: 200px 100px 200px 100px;
 }
 
 .h2-historia-pj {
+    font-family: 'Jaldi', sans-serif;
+    text-shadow: 0 0 20px black, 0 0 20px black, 0 0 20px black;
+    color: white;
     margin-bottom: 70px;
-    font-size: 35px;
+    font-size: 50px;
 }
 
 p {
-    font-size: 20px;
+    font-family: 'Jaldi', sans-serif;
+    text-shadow: 0 0 15px black, 0 0 5px black, 0 0 15px black;
+    color: white;
+    font-size: 23px;
     line-height: 30px;
     text-align: start;
+}
+
+/* estilos de responsive */
+
+@media (min-width: 1370px) {
+    /* estilos del home */
+
+    .logo-img {
+        width: 65%;
+    }
+
+    #input-home {
+        width: 350px;
+        height: 35px;
+        margin-top: 100px;
+    }
+
+    .icon-home {
+        font-size: 31px;
+    }
+
+    .home-btn {
+        width: 110px;
+        height: 35px;
+        font-size: 21px;
+    }
+
+    .home-a {
+        margin-top: 70px;
+    }
+
+    #p-divjson {
+        font-size: 20px;
+        line-height: 15px;
+    }
+
+    .scorpion-home {
+        width: 95%;
+        margin-top: 25px;
+    }
+
+    .subzero-home {
+        width: 100%;
+        margin: 25px 35px 0 0;
+    }
+
+    /* estilos de seleccion de personajes */
+
+    #body-seleccion {
+        overflow-x: hidden;
+    }
+
+    .icon-seleccion {
+        font-size: 80px;
+    }
+
+    .div-pj-cards {
+        margin-left: 49px;
+    }
+
+    .cartas-seleccion {
+        margin: 5px 6px 5px 6px;
+        width: 5rem;
+        height: 8.4rem;
+    }
+
+    .cartas-seleccion a img {
+        height: 140px;
+    }
+
+    /* estilos de personajes */
+
+    .h1-pj {
+        font-size: 100px;
+    }
+
+    .div-historia-pj {
+        padding: 350px 100px 350px 100px;
+    }
+
+    .h2-historia-pj {
+        font-size: 70px;
+        margin-bottom: 100px;
+    }
+
+    p {
+        font-size: 35px;
+        line-height: 45px;
+    }
+
+    #section-arriba-baraka {
+        height: 1000px;
+    }
+
+    #section-arriba-cassie-cage {
+        height: 1000px;
+    }
+
+    #section-arriba-cetrion {
+        height: 1000px;
+    }
+
+    #section-arriba-dvorah {
+        height: 1000px;
+    }
+
+    #section-arriba-erron-black {
+        height: 1000px;
+    }
+
+    #section-arriba-frost {
+        height: 1000px;
+    }
+
+    #section-arriba-fujin {
+        height: 1000px;
+    }
+
+    #section-arriba-geras {
+        height: 1000px;
+    }
+
+    #section-arriba-jacqui-briggs {
+        height: 1000px;
+    }
+
+    #section-arriba-jade {
+        height: 1000px;
+    }
+
+    #section-arriba-jax-briggs {
+        height: 1000px;
+    }
+
+    #section-arriba-johnny-cage {
+        height: 1000px;
+    }
+
+    #section-arriba-joker {
+        height: 1000px;
+    }
+
+    #section-arriba-kabal {
+        height: 1000px;
+    }
+
+    #section-arriba-kano {
+        height: 1000px;
+    }
+
+    #section-arriba-kitana {
+        height: 1000px;
+    }
+
+    #section-arriba-kollector {
+        height: 1000px;
+    }
+
+    #section-arriba-kotal-kahn {
+        height: 1000px;
+    }
+
+    #section-arriba-kung-lao {
+        height: 1000px;
+    }
+
+    #section-arriba-liu-kang {
+        height: 1000px;
+    }
+
+    #section-arriba-mileena {
+        height: 1000px;
+    }
+
+    #section-arriba-nightwolf {
+        height: 1000px;
+    }
+
+    #section-arriba-noob-saibot {
+        height: 1000px;
+    }
+
+    #section-arriba-raiden {
+        height: 1000px;
+    }
+
+    #section-arriba-rain {
+        height: 1000px;
+    }
+
+    #section-arriba-rambo {
+        height: 1000px;
+    }
+
+    #section-arriba-robocop {
+        height: 1000px;
+    }
+
+    #section-arriba-scorpion {
+        height: 1000px;
+    }
+
+    #section-arriba-shang-tsung {
+        height: 1000px;
+    }
+
+    #section-arriba-shao-kahn {
+        height: 1000px;
+    }
+
+    #section-arriba-sheeva {
+        height: 1000px;
+    }
+
+    #section-arriba-sindel {
+        height: 1000px;
+    }
+
+    #section-arriba-skarlet {
+        height: 1000px;
+    }
+
+    #section-arriba-sonya-blade {
+        height: 1000px;
+    }
+
+    #section-arriba-spawn {
+        height: 1000px;
+    }
+
+    #section-arriba-sub-zero {
+        height: 1000px;
+    }
+
+    #section-arriba-terminator {
+        height: 1000px;
+    }
 }

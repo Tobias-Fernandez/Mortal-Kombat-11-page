@@ -1,0 +1,115 @@
+{
+    "pjs": [
+        {
+            "nombre": "Shang Tsung"
+        },
+        {
+            "nombre": "Shao Kahn"
+        },
+        {
+            "nombre": "Frost"
+        },
+        {
+            "nombre": "NightWolf"
+        },
+        {
+            "nombre": "Joker"
+        },
+        {
+            "nombre": "Johnny Cage"
+        },
+        {
+            "nombre": "Sonya Blade"
+        },
+        {
+            "nombre": "Cassie Cage"
+        },
+        {
+            "nombre": "Jax Briggs"
+        },
+        {
+            "nombre": "Spawn"
+        },
+        {
+            "nombre": "Scorpion"
+        },
+        {
+            "nombre": "Noob Saibot"
+        },
+        {
+            "nombre": "Baraka"
+        },
+        {
+            "nombre": "Raiden"
+        },
+        {
+            "nombre": "Jacqui Briggs"
+        },
+        {
+            "nombre": "Sub Zero"
+        },
+        {
+            "nombre": "Kano"
+        },
+        {
+            "nombre": "Kabal"
+        },
+        {
+            "nombre": "Liu Kang"
+        },
+        {
+            "nombre": "Kitana"
+        },
+        {
+            "nombre": "Kung Lao"
+        },
+        {
+            "nombre": "Jade"
+        },
+        {
+            "nombre": "Robocop"
+        },
+        {
+            "nombre": "Skarlet"
+        },
+        {
+            "nombre": "Erron Black"
+        },
+        {
+            "nombre": "D'Vorah"
+        },
+        {
+            "nombre": "Kotal Kahn"
+        },
+        {
+            "nombre": "Sheeva"
+        },
+        {
+            "nombre": "Rambo"
+        },
+        {
+            "nombre": "Terminator"
+        },
+        {
+            "nombre": "Geras"
+        },
+        {
+            "nombre": "Kollector"
+        },
+        {
+            "nombre": "Sindel"
+        },
+        {
+            "nombre": "Mileena"
+        },
+        {
+            "nombre": "Cetrion"
+        },
+        {
+            "nombre": "Fujin"
+        },
+        {
+            "nombre": "Rain"
+        }
+    ]
+}
